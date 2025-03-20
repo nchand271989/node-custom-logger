@@ -1,0 +1,15 @@
+{
+  "name": "custom-logger",
+  "version": "1.0.0",
+  "main": "lib/logger.js",
+  "scripts": {
+    "test": "node test/logger.test.js"
+  },
+  "keywords": ["logger", "request-id", "uuid", "async-local-storage"],
+  "author": "Naveen Chand (AKA New Moon)",
+  "license": "MIT",
+  "description": "Minimal request logger with unique requestId using UUID & AsyncLocalStorage",
+  "dependencies": {
+    "uuid": "^11.1.0"
+  }
+}
